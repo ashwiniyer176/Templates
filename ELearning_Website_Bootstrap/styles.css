@@ -1,0 +1,83 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+nav {
+    height: 2.5cm;
+    font-size: larger;
+    background-color : rgb(37, 37, 37);
+    /* position:absolute; */
+}
+
+a {
+    color: white;
+    margin: 20px;
+}
+
+a:hover{
+    color:  rgb(255, 217, 0);
+}
+.dropdown-item{
+    width: fit-content;
+}
+
+img {
+    border-radius: 1cm;
+    height: 500px;
+    width: 500px;
+}
+
+table,thead,th,tbody,tr,td{
+    border: 2px solid black;
+    padding: 3.5%;
+}
+
+th {
+    font-size: 0.6cm;
+}
+td{
+}
+.table{
+    margin: 5%;
+}
+
+
+.center-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1cm;
+}
+.text-element {
+    margin: 3%;
+    margin-bottom: auto;
+}
+
+.jumbotron{
+    background-color: rgb(255, 217, 0);
+}
+.lead {
+    font-size:x-large;
+}
+
+
+#human-body{
+    height: auto;
+    width: auto;
+}
+
+#carouselExampleIndicators{
+    height: 460px;
+    width: 55%;
+}
+
+#navbarTitle {
+    font-size: 0.75cm;
+    color:  rgb(255, 217, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbarSupportedContent{
+    float: right;
+}
